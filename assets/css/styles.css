@@ -1,0 +1,200 @@
+body {
+  margin: 0px;
+  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1320px;
+  margin: 0px auto;
+}
+.header-wrapper {
+  background: #0099ff;
+  z-index: 1;
+  padding: 0px 10rem;
+}
+.header {
+  height: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.navigation ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navigation ul li {
+  margin: 0px 25px;
+  text-transform: capitalize;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+.login a {
+  padding: 10px 25px;
+  text-align: center;
+  width: 5rem;
+  border: none;
+  border-radius: 25px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  background: #fff;
+  color: #0099ff;
+  text-decoration: none;
+}
+.banner {
+  margin-top: -5px;
+  background-image: url("../svg/wave.svg");
+  background-position-y: -40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  max-height: 500px;
+  z-index: -1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10rem;
+  margin-bottom: 8rem;
+}
+.banner .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 2.5rem;
+  max-width: 50vw;
+}
+.intro h1 {
+  margin: 0px;
+  color: #0099ff;
+}
+.intro p {
+  font-size: 16px;
+  color: #403d56;
+}
+.intro button {
+  border: none;
+  padding: 15px;
+  background: #0099ff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 15px;
+  max-width: 10rem;
+}
+.banner .custom-image {
+  margin: 6rem;
+  max-width: 50vw;
+}
+.fisherman-wrapper {
+  height: 80vh;
+  padding: 0px 10rem;
+  display: flex;
+  align-items: center;
+}
+.fisherman-image {
+  width: 50vw;
+}
+.fisherman-info {
+  width: 50vw;
+  font-size: 2.5rem;
+  flex-direction: column;
+  display: flex;
+}
+.fisherman-info h1 {
+  color: #0099ff;
+  margin: 0;
+}
+.fisherman-info p {
+  font-size: 16px;
+  color: #403d56;
+}
+.fisherman-info button {
+  border: none;
+  padding: 15px;
+  background: #0099ff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 15px;
+  max-width: 10rem;
+}
+.activities {
+  padding: 0px 10rem;
+}
+.activity-title {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  color: #0099ff;
+  text-align: center;
+  font-weight: 400;
+}
+.activity-list {
+  display: flex;
+}
+.activity {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.activity img {
+  height: 300px;
+}
+.activity h1 {
+  color: #0099ff;
+}
+.activity p {
+  color: #403d56;
+}
+.contact-us-wrapper {
+  background: url("../svg/contactus.svg");
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+.contact-us h1 {
+  color: #0099ff;
+  font-size: 4rem;
+}
+
+.contact-us {
+  margin: auto;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 35rem;
+}
+
+.contact-us input {
+  width: 100%;
+  padding-left: 20px;
+  border: none;
+  background: #f5f5f5;
+  margin-bottom: 1rem;
+  font-family: inherit;
+  padding: 12px 16px;
+  border-radius: 9px;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 9px;
+  background: #f5f5f5;
+  border: none;
+  font-family: inherit;
+  resize: none;
+  margin-bottom: 2rem;
+}
+
+.contact-us button {
+  margin: auto;
+  border: none;
+  padding: 15px;
+  color: #0099ff;
+  background: #fff;
+  font-size: 16px;
+  border-radius: 15px;
+  max-width: 10rem;
+}
